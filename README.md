@@ -117,7 +117,14 @@ pip install -r requirements.txt
 
 ## ▶ How to Run the Project
 
-### 1. Run Python Analytics Engine (CSV, Excel, or PDF)
+### 1. Run Pure Python Web Dashboard (Streamlit)
+```powershell
+# Launch the interactive Python web app:
+streamlit run app.py
+```
+This opens the Python dashboard in your browser (`http://localhost:8501/`) where you can drag and drop CSV, Excel, or PDF files, visualize metrics, explore department stats, and download processed results.
+
+### 2. Run Python CLI Analytics Engine (Terminal)
 ```powershell
 # Default (runs students.csv):
 python main.py
@@ -138,7 +145,7 @@ The program will:
 3. Clean the data with full explanations.
 4. Calculate totals, averages, grades and pass/fail status.
 5. Print performance statistics, top students and summaries.
-6. Save results to `student_performance_results.csv` and sync `frontend/src/data/studentsData.json`.
+6. Save results to `student_performance_results.csv` and sync JSON.
 7. Generate charts in the `charts/` folder.
 
 ### 2. Run React Frontend Dashboard
