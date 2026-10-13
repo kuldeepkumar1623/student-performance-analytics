@@ -51,7 +51,7 @@ This project analyses student academic performance across multiple subjects (Mat
 | React 18 + Vite | Interactive web dashboard |
 | SheetJS & PapaParse | Client-side Excel & CSV parsing |
 
-## 📁 Dataset Description
+##  Dataset Description
 
 `students.csv` contains **25 student records** with the following columns:
 
@@ -94,75 +94,7 @@ student-performance-analytics/
 - **VS Code** (recommended editor)
 - **Git** installed ([download](https://git-scm.com/downloads))
 
-### Step-by-step setup (Windows PowerShell)
 
-```powershell
-# 1. Navigate to the project folder
-cd d:\python_intern\student-performance-analytics
-
-# 2. Create a virtual environment
-python -m venv .venv
-
-# 3. Activate the virtual environment
-.\.venv\Scripts\Activate.ps1
-
-# 4. Install dependencies
-pip install -r requirements.txt
-```
-
-> **Note:** If you get an execution policy error, run:
-> ```powershell
-> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-> ```
-
-## ▶ How to Run the Project
-
-### 1. Run Pure Python Web Dashboard (Streamlit)
-```powershell
-# Launch the interactive Python web app:
-streamlit run app.py
-```
-This opens the Python dashboard in your browser (`http://localhost:8501/`) where you can drag and drop CSV, Excel, or PDF files, visualize metrics, explore department stats, and download processed results.
-
-### 2. Run Python CLI Analytics Engine (Terminal)
-```powershell
-# Default (runs students.csv):
-python main.py
-
-# Run with Excel (.xlsx):
-python main.py students.xlsx
-
-# Run with PDF table (.pdf):
-python main.py students.pdf
-
-# Generate fresh sample Excel & PDF files:
-python generate_sample_datasets.py
-```
-
-The program will:
-1. Detect file format (`.csv`, `.xlsx`, or `.pdf`) and load tabular student records.
-2. Check for missing values and duplicates.
-3. Clean the data with full explanations.
-4. Calculate totals, averages, grades and pass/fail status.
-5. Print performance statistics, top students and summaries.
-6. Save results to `student_performance_results.csv` and sync JSON.
-7. Generate charts in the `charts/` folder.
-
-### 2. Run React Frontend Dashboard
-```powershell
-# Navigate to the frontend folder
-cd frontend
-
-# Install dependencies (only required first time)
-npm install
-
-# Start the React development server
-npm run dev
-```
-
-The interactive dashboard will open in your browser at `http://localhost:3000/`.
-
-## 📋 Example Output (abbreviated)
 
 ```
 ============================================================
@@ -202,27 +134,6 @@ The interactive dashboard will open in your browser at `http://localhost:3000/`.
 | F | Average < 40 |
 
 **Pass Condition:** A student must score **≥ 40 in every subject** (Mathematics, Python, Data Science).
-
-## 🌐 GitHub Upload Instructions
-
-```powershell
-# 1. Initialise Git
-git init
-
-# 2. Add all files
-git add .
-
-# 3. Commit
-git commit -m "Initial commit: Student Performance Analytics System"
-
-# 4. Create a new repo on GitHub (do this in your browser first)
-#    Then link it:
-git remote add origin https://github.com/YOUR_USERNAME/student-performance-analytics.git
-
-# 5. Push to GitHub
-git branch -M main
-git push -u origin main
-```
 
 ## 📄 License
 
