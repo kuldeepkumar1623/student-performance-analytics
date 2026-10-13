@@ -1,0 +1,27 @@
+Student_ID,Name,Department,Mathematics,Python,Data_Science,Attendance
+S001,Aarav Sharma,Computer Science,85,92,78,88
+S002,Priya Patel,Data Science,90,88,95,92
+S003,Rohan Gupta,Computer Science,45,38,52,65
+S004,Sneha Reddy,Data Science,72,80,68,78
+S005,Vikram Singh,Information Technology,55,60,48,70
+S006,Ananya Iyer,Computer Science,95,97,93,96
+S007,Karan Mehta,Information Technology,30,35,28,45
+S008,Divya Nair,Data Science,82,75,88,85
+S009,Arjun Das,Computer Science,60,55,62,72
+S010,Meera Joshi,Information Technology,78,82,74,80
+S011,Rahul Verma,Data Science,40,42,38,60
+S012,Pooja Kulkarni,Computer Science,88,91,85,90
+S013,Amit Thakur,Information Technology,65,58,70,75
+S014,Neha Agarwal,Data Science,92,95,90,94
+S015,Suresh Kumar,Computer Science,35,40,30,50
+S016,Kavita Desai,Information Technology,70,65,72,76
+S017,Rajesh Mishra,Data Science,48,52,45,62
+S018,Fatima Shaikh,Computer Science,80,85,82,87
+S019,Aditya Rao,Information Technology,58,62,55,68
+S020,Lakshmi Menon,Data Science,98,96,99,98
+S021,Sanjay Pandey,Computer Science,42,45,40,55
+S022,Ritu Saxena,Information Technology,75,70,78,82
+S023,Deepak Jain,Data Science,50,48,,66
+S024,Swati Bose,Computer Science,88,85,90,
+S025,Manish Tiwari,Information Technology,63,67,60,74
+
